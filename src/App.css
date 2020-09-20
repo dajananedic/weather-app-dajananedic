@@ -1,38 +1,32 @@
-.App {
+.App h1 {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App {
+  /* text-align: center; */
+  font-family: "Roboto Mono";
+  color: blue;
+  margin: 25px;
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #ffffff;
+  font-family: "Roboto";
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: blue;
 }
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App footer {
+  text-align: center;
+  font-size: 10px;
+  margin: 100px 10px;
 }
