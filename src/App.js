@@ -13,8 +13,9 @@ export default function App() {
           This project was coded by Dajana Nedic{" "}
           <span>
             <a
-              href="https://github.com/dajananedic/dn-weather-react-app"
+              href="https://github.com/dajananedic/weather-app-dajananedic"
               target="_blank"
+              rel="noopener noreferrer"
             >
               open-sourced on Github
             </a>
